@@ -1,8 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=BBH+Bartle&family=Geom:ital,wght@0,300..900;1,300..900&family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 * {
   
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 
 body {
   background-color: #000;
@@ -98,7 +107,7 @@ header a:hover {
   content: "";
   position: absolute;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.95); /* THIS gives your 95% effect */
+  background-color: rgba(0, 0, 0, 0.92); /* THIS gives your 95% effect */
   z-index: 1;
 }
 
@@ -107,4 +116,28 @@ header a:hover {
   position: relative;
   z-index: 2;
   text-align: center;
+}
+
+.hero-content h2 {
+  font-size: 5.8rem;
+  margin-bottom: 0.3rem;
+}
+
+.hero-content .title {
+  font-size: 1.8rem;
+  font-family: "Lexend";
+  color: #ccc;
+  margin-top: 1.8rem;
+  margin-bottom: 1.8rem;
+}
+
+.hero-content .quote {
+  max-width: 700px;
+  font-size: 1.2rem;
+  font-style: italic;
+  line-height: 1.6;
+  color: #aaa;
+  font-family: "Geom", sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
