@@ -26,8 +26,8 @@ nav {
   position: sticky;
   z-index: 100;
   top: 0;
-  background-color: rgba(0, 0, 0,0.6);
-  backdrop-filter: blur(6px);
+  background-color: rgba(0, 0, 0,0.5);
+  backdrop-filter: blur(5.3px);
   
 }
 
@@ -257,7 +257,7 @@ header a:hover {
   padding: 4rem 0;
   background: #0b0f14;
 }
-
+.section-subtitle,
 .section-title {
   text-align: center;
   font-size: 3rem;
@@ -351,7 +351,8 @@ header a:hover {
 
 
 .stats-block {
-  margin-top: 4rem;
+  margin: 4rem 0;
+
 }
 
 .stats-heading {
@@ -375,3 +376,61 @@ header a:hover {
   margin-top: 3rem;
 }
 
+.stats-grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#odi-stats{
+    background-color: #14171a ;
+}
+.section-subtitle{
+    margin: 2rem 0;
+}
+
+.stats-card ul{
+    list-style: none;
+    padding: 0;
+    top: 0;
+}
+
+.stats-card ul li{
+    padding: 30px;
+    margin-bottom: 25px;
+    border: 3.2px solid #32363f;
+    border-radius: 10px;
+    background-color: #13171f;
+    font-size: 18px;
+    color: #aaa;
+    font-weight: 500;
+    min-width: 300px;
+    transition: 0.3s ease-in-out;
+}
+.stats-card h3{
+    font-size: 26px;
+    margin: 5px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+
+.stats-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.stats-card ul li:hover{
+    padding: 30px;
+    margin-bottom: 25px;
+    border: 3.2px solid #32363f;
+    border-radius: 10px;
+    background-color: #13171f;
+    font-size: 18px;
+    color: #aaa;
+    font-weight: 500;
+    min-width: 300px;
+    transform: translateY(-10%);
+    transition: 0.3s ease-in-out;
+}
