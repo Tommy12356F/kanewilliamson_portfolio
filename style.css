@@ -26,7 +26,7 @@ nav {
   position: sticky;
   z-index: 100;
   top: 0;
-  background-color: rgba(0, 0, 0,0.5);
+  background-color: rgba(0, 0, 0,0.4);
   backdrop-filter: blur(5.3px);
   
 }
@@ -440,13 +440,19 @@ header a:hover {
     font-weight: 700;
     color: #ffffff;
     line-height: 1;
-    text-shadow: 0 0 12px rgba(255, 255, 255, 0.4);
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.32);
 }
 
 .smalltext {
     font-size: 22px;
     color: #9aa4b2;
     margin-top: 8px;
+    font-weight: 400;
+}
+
+#test-stats{
+    background-color: #0e1419;
+
 }
 
 .stats-card ul li {
@@ -456,9 +462,9 @@ header a:hover {
     border: 2px solid #2c3038;
     border-radius: 14px;
 
-    background: #23262e;
+    background-color: #24272d;
 
-    min-width: 300px;
+    min-width: 325px;
 
     display: flex;
     flex-direction: column;
@@ -476,7 +482,7 @@ header a:hover {
 .stats-card ul li:hover {
     transform: translateY(-6px);
 
-    border-color: #3b82f6;
+    border-color: #809ac0;
 
     box-shadow:
         0 12px 30px rgba(0, 0, 0, 0.6),
