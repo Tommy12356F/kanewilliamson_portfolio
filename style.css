@@ -444,7 +444,7 @@ header a:hover {
 }
 
 .smalltext {
-    font-size: 22px;
+    font-size: 18px;
     color: #9aa4b2;
     margin-top: 8px;
     font-weight: 400;
@@ -498,4 +498,75 @@ header a:hover {
     color: #22c55e;
     text-shadow: 0 0 12px rgba(59, 246, 118, 0.55);
 
+}
+
+#gallery {
+  position: relative;
+  width: 100%;
+}
+
+
+.gallery-bg {
+  width: 100%;
+  height: auto;          
+  display: block;
+}
+
+
+.gallery-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+
+.gallery-content {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.gallery-content h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 1rem 0;
+
+}
+
+.gallery-content p {
+  font-size: 1.2rem;
+  color: #ddd;
+  margin-bottom: 2.5rem;
+}
+
+
+.gallery-btn {
+  display: inline-flex;               
+  align-items: center;
+  gap: 10px;                          
+
+  padding: 14px 36px;
+  border-radius: 12px;
+  border: 1.5px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+
+  transition: all 0.3s ease;
+}
+
+.gallery-btn i {
+  font-size: 1.1rem;
+}
+
+.gallery-btn:hover {
+  background-color: #fff;
+  color: #000;
+  transform: translateY(-3px);
 }
