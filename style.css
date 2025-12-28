@@ -400,7 +400,7 @@ header a:hover {
     margin-bottom: 25px;
     border: 3.2px solid #32363f;
     border-radius: 10px;
-    background-color: #13171f;
+    background-color:#1c1f26;
     font-size: 18px;
     color: #aaa;
     font-weight: 500;
@@ -408,7 +408,7 @@ header a:hover {
     transition: 0.3s ease-in-out;
 }
 .stats-card h3{
-    font-size: 26px;
+    font-size: 29px;
     margin: 5px;
     font-weight: 600;
     margin-bottom: 25px;
@@ -433,4 +433,52 @@ header a:hover {
     min-width: 300px;
     transform: translateY(-10%);
     transition: 0.3s ease-in-out;
+}
+
+.bigtext {
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1;
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.4);
+}
+
+.smalltext {
+    font-size: 22px;
+    color: #9aa4b2;
+    margin-top: 8px;
+}
+
+.stats-card ul li {
+    padding: 28px 32px;
+    margin-bottom: 25px;
+
+    border: 2px solid #2c3038;
+    border-radius: 14px;
+
+    background: #23262e;
+
+    min-width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    transition: transform 0.25s ease, 
+                border-color 0.25s ease,
+                box-shadow 0.25s ease;
+}
+
+.stats-card ul li:hover .bigtext {
+    text-shadow: 0 0 12px rgba(59, 130, 246, 0.4);
+}
+
+.stats-card ul li:hover {
+    transform: translateY(-6px);
+
+    border-color: #3b82f6;
+
+    box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.6),
+        0 0 0 1px rgba(59, 130, 246, 0.15);
 }
