@@ -408,7 +408,7 @@ header a:hover {
     transition: 0.3s ease-in-out;
 }
 .stats-card h3{
-    font-size: 29px;
+    font-size: 32px;
     margin: 5px;
     font-weight: 600;
     margin-bottom: 25px;
@@ -487,4 +487,15 @@ header a:hover {
     box-shadow:
         0 12px 30px rgba(0, 0, 0, 0.6),
         0 0 0 1px rgba(59, 130, 246, 0.15);
+}
+.heada{
+    color: #3b82f6;
+    text-shadow: 0 0 12px rgba(45, 153, 224, 0.55);
+
+}
+
+.headb{
+    color: #22c55e;
+    text-shadow: 0 0 12px rgba(59, 246, 118, 0.55);
+
 }
