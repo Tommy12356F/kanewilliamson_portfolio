@@ -707,11 +707,11 @@ header a:hover {
 }
 
 .news-card {
-  width: 300px;
-  padding: 22px;
+  width: 360px;
+  padding: 25px 32px;
   background-color: #0c0f12;
   border: 1.5px solid rgba(255, 255, 255, 0.06);
-  border-radius: 14px;
+  border-radius: 18px;
   text-decoration: none;
   color: #e5e7eb;
   text-align: left;
@@ -727,10 +727,12 @@ header a:hover {
   font-size: 1rem;
   margin-bottom: 0.8rem;
   font-weight: 600;
+  line-height: 1.55;
 }
 
 .news-card p {
   font-size: 0.85rem;
+  
   color: #9ca3af;
 }
 
@@ -750,4 +752,79 @@ header a:hover {
   margin-top: 0.1rem;
   color: #fff;
   text-align: center;
+}
+
+
+.connect-section {
+  background-color: #14171a;
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* Main card */
+.connect-card {
+  background: #0e1012;
+  padding: 3.5rem;
+  border-radius: 15px;
+  width: 520px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.connect-card h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 2rem 0;
+}
+
+/* Form layout */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2.15rem;
+}
+
+/* Label + input group */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+label {
+  color: #d1d5db;
+  font-size: 1rem;
+}
+
+/* Inputs */
+input,
+textarea {
+  background-color: #1c1f26;
+  border: none;
+  border-radius: 15px;
+  padding: 16px 18px;
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+}
+
+/* Message box bigger */
+textarea {
+  resize: none;
+  height: 130px;
+}
+
+/* Submit button */
+.submit-btn {
+  margin-top: 1.5rem;
+  background-color: #262a33;
+  color: #fff;
+  border: none;
+  border-radius: 14px;
+  padding: 18px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
 }
