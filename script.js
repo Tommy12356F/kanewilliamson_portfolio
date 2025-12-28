@@ -127,3 +127,40 @@ new Chart(odiCtx, {
   }
 });
 
+const newsContainer = document.getElementById("news-container");
+
+const rssUrl =
+  "https://news.google.com/rss/search?q=Kane+Williamson";
+
+const proxyUrl =
+  "https://api.allorigins.win/get?url=" + encodeURIComponent(rssUrl);
+
+fetch(proxyUrl)
+  .then((res) => res.json())
+  .then((data) => {
+    const parser = new DOMParser();
+    const xml = parser.parseFromString(data.contents, "text/xml");
+    const items = xml.querySelectorAll("item");
+
+    newsContainer.innerHTML = "";
+
+    Array.from(items)
+      .slice(0, 6)
+      .forEach((item) => {
+        const title = item.querySelector("title").textContent;
+        const link = item.querySelector("link").textContent;
+
+        const article = document.createElement("a");
+        article.className = "news-card";
+        article.href = link;
+        article.target = "_blank";
+
+        article.innerHTML = `<h4>${title}</h4>`;
+
+        newsContainer.appendChild(article);
+      });
+  })
+  .catch(() => {
+    newsContainer.innerHTML =
+      "<p class='error-text'>Failed to load news.</p>";
+  });

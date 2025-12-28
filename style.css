@@ -570,3 +570,184 @@ header a:hover {
   color: #000;
   transform: translateY(-3px);
 }
+
+
+.social-section {
+  background-color: #090c0f;
+  padding: 3.7rem 0;
+  text-align: center;
+}
+
+/* ===== Section Heading ===== */
+.social-section .section-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.8rem;
+  margin-top: 0.8rem;
+}
+
+.social-section .section-subtitle {
+  font-size: 1.1rem;
+  color: #a1a1aa;
+  margin-bottom: 4rem;
+}
+
+/* ===== Cards Container (Flex only) ===== */
+.social-grid {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin-bottom: 0.8rem;
+}
+
+/* ===== Individual Social Card ===== */
+.social-card {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+
+  padding: 22px 26px;
+  width: 340px;
+
+  background-color: #17191c;
+  border: 1.5px solid rgba(255, 255, 255, 0.06);
+  border-radius: 16px;
+
+  text-decoration: none;
+  color: #e5e7eb;
+
+  transition: all 0.3s ease;
+}
+
+/* ===== Icon Styling ===== */
+.social-card i {
+  font-size: 1.8rem;
+  color: #9ca3af;
+  transition: color 0.3s ease;
+}
+
+/* ===== Text Container ===== */
+.social-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+ .platform {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+ .handle {
+  font-size: 0.9rem;
+  color: #9ca3af;
+}
+
+/* ===== Hover Effect ===== */
+.social-card:hover {
+  transform: translateY(-6px);
+  background-color: #151c26;
+}
+
+/* ===== Platform-specific Glow Effects ===== */
+.social-card.instagram:hover {
+  box-shadow: 0 0 20px rgba(236, 72, 153, 0.35);
+}
+
+.social-card.instagram:hover i {
+  color: #ec4899;
+}
+
+.social-card.twitter:hover {
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.35);
+}
+
+.social-card.twitter:hover i {
+  color: #3b82f6;
+}
+
+.social-card.youtube:hover {
+  box-shadow: 0 0 20px rgba(239, 68, 68, 0.35);
+}
+
+.social-card.youtube:hover i {
+  color: #ef4444;
+}
+
+.footer{
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+    background-color: #0a0f18;
+
+}
+
+.footerbody{
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Lexend";
+}
+
+
+.news-section {
+  background-color: #0f1318;
+  padding: 6rem 0;
+  text-align: center;
+}
+
+.news-container {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.news-card {
+  width: 300px;
+  padding: 22px;
+  background-color: #0c0f12;
+  border: 1.5px solid rgba(255, 255, 255, 0.06);
+  border-radius: 14px;
+  text-decoration: none;
+  color: #e5e7eb;
+  text-align: left;
+  transition: 0.3s ease-in-out;
+}
+
+.news-card:hover{
+    transform: translateY(-6px);
+    transition: 0.3s ease-in-out;
+}
+
+.news-card h4 {
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+}
+
+.news-card p {
+  font-size: 0.85rem;
+  color: #9ca3af;
+}
+
+.loading-text,
+.error-text {
+  color: #9ca3af;
+  font-size: 1rem;
+}
+.section-subtitle-news{
+    font-size: 0.87em;
+}
+
+.section-title-news {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  margin-top: 0.1rem;
+  color: #fff;
+  text-align: center;
+}
