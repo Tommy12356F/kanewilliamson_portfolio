@@ -1,4 +1,4 @@
-#My Experience with WebDev
+# My Experience with WebDev
 I first got into web development back in 9th grade and continued through 10th. During that time, I built a few small websites and even participated in a hackathon. Eventually though, like most people preparing for boards and JEE, I had to leave it aside. Academics took over, but even after that phase, web development was always something I liked and wanted to come back to.
 
 
@@ -6,7 +6,7 @@ Recently, I decided to properly restart that journey and began working on rebuil
 
 Then, a day before submission, I just thought — I’m learning web dev anyway, why not treat this as an assignment and submit whatever I manage to build? No pressure, no expectations. That’s how this project started.
 
-#Journey of this project
+# Journey of this project
 Initially, I made it a point not to use AI at all. I wanted to see how far I could go on my own. But pretty quickly, some sections made me feel completely stuck, and avoiding help altogether didn’t really make sense. So I did use AI at multiple points — but always with the goal of understanding what was happening, not just copying code blindly.
 
 The header was reused from a landing page project I had built about a week earlier. I adjusted it to fit this site, which actually helped reinforce the idea that code reuse is normal and useful. The hero section itself was simple, but I spent a lot of time adjusting spacing and positioning, especially around the quote. That small section taught me a lot about visual balance and fine-tuning layouts.
