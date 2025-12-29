@@ -164,3 +164,10 @@ fetch(proxyUrl)
     newsContainer.innerHTML =
       "<p class='error-text'>Failed to load news.</p>";
   });
+
+
+  let button = document.querySelector(".submit-btn")
+
+  button.addEventListener("click",()=>{
+    alert("Thanks for sending out a message!")
+  })
