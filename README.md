@@ -40,3 +40,104 @@ As a comparison, I’ve also linked a vibe-coded portfolio below — built with 
 just in case the task was more about seeing how polished or visually impressive a site could be when given access to everything. I was also aware that many students might submit vibe-coded portfolios, so I wanted to cover that angle as well.
 
 used ai to refine content in this readme 
+
+
+## Tech Stack
+
+This project is built using plain HTML, CSS, and JavaScript — no frameworks. The idea was to strengthen fundamentals instead of hiding logic behind abstractions.
+
+- **HTML5** for structure and semantic layout  
+- **CSS3** for styling, layout (Flexbox), overlays, and basic transitions  
+- **JavaScript (Vanilla)** for interactivity, DOM manipulation, toggles, and fetching data  
+- **Chart.js** for rendering statistical graphs  
+- **Font Awesome** for icons  
+- **Google News RSS + RSS-to-JSON** for live news updates  
+
+No build tools, no bundlers, no frameworks — everything runs directly in the browser.
+
+---
+
+## Project Structure
+
+The project is kept intentionally simple and readable.
+
+- `index.html` → main homepage  
+- `gallery.html` → image gallery page  
+- `gallery.css` → gallery-specific styles  
+- `style.css` → main site styling  
+- `script.js` → JavaScript for interactions, charts, toggles, and news feed  
+- `assets/` → images and static resources  
+
+Each section is separated logically in HTML, and CSS is grouped by section to avoid things turning into one giant mess.
+
+---
+
+## Key Features
+
+- Responsive hero section with custom typography and layout  
+- Marquee-style stats section  
+- Timeline section built using CSS positioning and pseudo-elements  
+- Interactive statistics section with charts and custom-designed stat cards  
+- Image gallery page with light/dark mode toggle  
+- Live news feed using Google News RSS  
+- Social media links section with hover effects  
+- Custom-designed form section (UI-focused)  
+- Dark/Light mode toggle using JavaScript  
+
+---
+
+## Design Decisions
+
+I intentionally avoided flashy animations and over-the-top effects. The focus was more on layout, structure, and clarity rather than visual noise.
+
+Dark mode was chosen as the default because:
+- It fits the overall aesthetic better  
+- It’s easier on the eyes  
+- Most modern portfolio-style sites lean toward darker themes  
+
+Instead of random styling, I often designed sections first (even roughly) and then wrote CSS to match the design. That approach helped avoid endlessly tweaking values without direction.
+
+---
+
+## Challenges & Debugging Stories
+
+Flexbox was probably the biggest struggle early on. I underestimated how much I had forgotten, especially alignment and spacing rules. But once things clicked again, it became one of the most useful parts of the project.
+
+Understanding `position: relative` vs `absolute` took time, especially in the timeline section. It looked magical at first, but breaking it down line by line helped a lot.
+
+The news feed was another major challenge. Dealing with external data, fetch requests, and handling failed loads was new territory. Seeing it finally work felt extremely rewarding.
+
+Debugging JavaScript errors — especially `null` selector errors — taught me the importance of script placement and DOM loading order.
+
+---
+
+## What This Project Taught Me
+
+This project reminded me that:
+- You don’t need to know everything to start  
+- Getting stuck is part of learning, not a failure  
+- Reading and understanding code matters more than writing a lot of it  
+- AI is only useful if you ask *why*, not just *how*  
+
+More than anything, it helped rebuild my confidence in web development after a long break.
+
+---
+
+## Future Improvements
+
+- Make the site fully responsive across devices  
+- Improve form functionality (actual submissions, validation, backend)  
+- Add better animations once I’m comfortable with them  
+- Improve color consistency across sections  
+- Optimize gallery loading and layout  
+- Add accessibility improvements (ARIA labels, contrast checks)  
+
+---
+
+## Acknowledgements
+
+- **The Odin Project** — for helping me rebuild my fundamentals properly  
+- **ChatGPT** — for explanations, debugging help, and learning support  
+- **Google News** — for accessible RSS feeds  
+- **ESPNcricinfo** — statistics and images  
+- **Font Awesome & Chart.js** — for UI icons and data visualization  
