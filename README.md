@@ -1,9 +1,12 @@
+#My Experience with WebDev
 I first got into web development back in 9th grade and continued through 10th. During that time, I built a few small websites and even participated in a hackathon. Eventually though, like most people preparing for boards and JEE, I had to leave it aside. Academics took over, but even after that phase, web development was always something I liked and wanted to come back to.
+
 
 Recently, I decided to properly restart that journey and began working on rebuilding my fundamentals. Right now, I’m following The Odin Project, which has been helping me relearn things in a more structured way. When this opportunity came up, I honestly wasn’t planning to submit anything for this domain. I was at home, short on time, and didn’t feel confident about making a proper site for someone as big as Virat Kohli. I had also put in a lot of effort into competitive programming (CodeChef), which didn’t really go the way I expected, so motivation was low.
 
 Then, a day before submission, I just thought — I’m learning web dev anyway, why not treat this as an assignment and submit whatever I manage to build? No pressure, no expectations. That’s how this project started.
 
+#Journey of this project
 Initially, I made it a point not to use AI at all. I wanted to see how far I could go on my own. But pretty quickly, some sections made me feel completely stuck, and avoiding help altogether didn’t really make sense. So I did use AI at multiple points — but always with the goal of understanding what was happening, not just copying code blindly.
 
 The header was reused from a landing page project I had built about a week earlier. I adjusted it to fit this site, which actually helped reinforce the idea that code reuse is normal and useful. The hero section itself was simple, but I spent a lot of time adjusting spacing and positioning, especially around the quote. That small section taught me a lot about visual balance and fine-tuning layouts.
@@ -32,5 +35,8 @@ Since I had recently learned about the .toggle() method in JavaScript, I decided
 
 Overall, this site doesn’t use flashy animations or advanced effects — mostly because I don’t know how to do those yet. I also won’t claim that I didn’t use AI. But I do understand how most of this project works, and wherever AI was used, I made sure to ask why things worked the way they did. If anything, AI helped me learn faster by forcing me to ask better questions.
 
-As a comparison, I’ve also linked a vibe-coded portfolio below — built with full freedom and AI assistance — just in case the task was about seeing what kind of site one could make with everything available.
+As a comparison, I’ve also linked a vibe-coded portfolio below — built with full freedom and AI assistance:
+# https://viratkohli-portfolio.vercel.app/
+just in case the task was more about seeing how polished or visually impressive a site could be when given access to everything. I was also aware that many students might submit vibe-coded portfolios, so I wanted to cover that angle as well.
 
+used ai to refine content in this readme 
