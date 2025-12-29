@@ -1,3 +1,5 @@
+# https://kanewilliamson-portfolio.vercel.app/
+
 # My Experience with WebDev
 I first got into web development back in 9th grade and continued through 10th. During that time, I built a few small websites and even participated in a hackathon. Eventually though, like most people preparing for boards and JEE, I had to leave it aside. Academics took over, but even after that phase, web development was always something I liked and wanted to come back to.
 
@@ -105,7 +107,6 @@ Flexbox was probably the biggest struggle early on. I underestimated how much I 
 
 Understanding `position: relative` vs `absolute` took time, especially in the timeline section. It looked magical at first, but breaking it down line by line helped a lot.
 
-The news feed was another major challenge. Dealing with external data, fetch requests, and handling failed loads was new territory. Seeing it finally work felt extremely rewarding.
 
 Debugging JavaScript errors — especially `null` selector errors — taught me the importance of script placement and DOM loading order.
 
@@ -130,7 +131,7 @@ More than anything, it helped rebuild my confidence in web development after a l
 - Add better animations once I’m comfortable with them  
 - Improve color consistency across sections  
 - Optimize gallery loading and layout  
-- Add accessibility improvements (ARIA labels, contrast checks)  
+
 
 ---
 
