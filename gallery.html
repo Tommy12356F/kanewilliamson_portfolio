@@ -4,21 +4,28 @@
   <meta charset="UTF-8" />
   <title>Kane Williamson | Gallery</title>
 
-  <!-- Gallery CSS -->
-  <link rel="stylesheet" href="gallery.css" />
 
-  <!-- Font Awesome (optional, safe to keep) -->
+  <link rel="stylesheet" href="gallery.css"/>
+
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+
+
+
 </head>
 <body>
 
-  <!-- Header -->
+
+    <button class="theme-toggle" id="themeToggle">
+        <i class="fa-solid fa-sun"></i>
+    </button>
   <header class="gallery-header">
     <h1>Gallery</h1>
     <p>A visual journey through Kane Williamson’s career</p>
   </header>
 
-  <!-- Gallery Section -->
+  
   <section class="gallery-section">
 
     <div class="gallery-container">
@@ -53,6 +60,24 @@
     </div>
 
   </section>
+  <script>
+        const toggleBtn = document.getElementById("themeToggle");
+        const body = document.body;
+        const icon = toggleBtn.querySelector("i");
+
+        toggleBtn.addEventListener("click", () => {
+            body.classList.toggle("light-mode");
+
+            // Switch icon
+            if (body.classList.contains("light-mode")) {
+            icon.classList.remove("fa-sun");
+            icon.classList.add("fa-moon");
+            } else {
+            icon.classList.remove("fa-moon");
+            icon.classList.add("fa-sun");
+            }
+        });
+    </script>
 
 </body>
 </html>
