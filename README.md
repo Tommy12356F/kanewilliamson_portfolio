@@ -41,7 +41,7 @@ As a comparison, I’ve also linked a vibe-coded portfolio below — built with 
 # https://viratkohli-portfolio.vercel.app/
 just in case the task was more about seeing how polished or visually impressive a site could be when given access to everything. I was also aware that many students might submit vibe-coded portfolios, so I wanted to cover that angle as well.
 
-**have used ai to refine content in this readme but the content itself is geniune and representative of what happened irl**
+## have used ai to refine content in this readme but the content itself is geniune and representative of what happened irl
 
 
 ## Tech Stack
