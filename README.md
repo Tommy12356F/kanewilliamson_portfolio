@@ -142,3 +142,6 @@ More than anything, it helped rebuild my confidence in web development after a l
 - **Google News** — for accessible RSS feeds  
 - **ESPNcricinfo** — statistics and images  
 - **Font Awesome & Chart.js** — for UI icons and data visualization  
+
+
+# Edit: GOT INTO VINNOVATEIT YAYYAY
